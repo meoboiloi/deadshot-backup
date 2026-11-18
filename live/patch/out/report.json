@@ -1,0 +1,26 @@
+{
+  "fetched": {
+    "htmlBytes": 970849,
+    "pkgBytes": 1733477
+  },
+  "source": {
+    "originalChars": 6178813,
+    "patchedChars": 6179891,
+    "delta": 1078
+  },
+  "antiHook": {
+    "var dax=window[": 1,
+    "if(cXu)var daC": 1,
+    "(dru||dav)&&alert(": 1
+  },
+  "inject": "inject.js",
+  "verifyStubInserted": true,
+  "integrityPatched": 1,
+  "repack": {
+    "pkgBytes": 1739881,
+    "unpackEqual": true,
+    "sha256": "361fe44722e48b143425643dbf25585b6feb13fed883ef508069c2dcb3ef2a52",
+    "htmlSha256": "ed26254b613d0b9949b7d451d4a473703aebe4d7c15f69ea788f8d8d3b675e7a"
+  },
+  "out": "C:\\Users\\Administrator\\Downloads\\deadshot\\live\\patch/out"
+}

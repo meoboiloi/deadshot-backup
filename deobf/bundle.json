@@ -1,0 +1,142 @@
+{
+  "type": "browserify",
+  "entryId": "1",
+  "modules": [
+    {
+      "id": "1",
+      "path": "index.js"
+    },
+    {
+      "id": "2",
+      "path": "buffer-global.js"
+    },
+    {
+      "id": "3",
+      "path": "node_modules/іıIiıӏiı/index.js"
+    },
+    {
+      "id": "4",
+      "path": "node_modules/breastman/index.js"
+    },
+    {
+      "id": "5",
+      "path": "bufferish-buffer.js"
+    },
+    {
+      "id": "6",
+      "path": "bufferish-proto.js"
+    },
+    {
+      "id": "7",
+      "path": "bufferish-uint8array.js"
+    },
+    {
+      "id": "8",
+      "path": "bufferish.js"
+    },
+    {
+      "id": "9",
+      "path": "codec-base.js"
+    },
+    {
+      "id": "10",
+      "path": "codec.js"
+    },
+    {
+      "id": "11",
+      "path": "node_modules/friends/decode-buffer.js"
+    },
+    {
+      "id": "12",
+      "path": "node_modules/friends/decode.js"
+    },
+    {
+      "id": "13",
+      "path": "node_modules/MULT_VALUE/index.js"
+    },
+    {
+      "id": "14",
+      "path": "node_modules/rock_grey/encode-buffer.js"
+    },
+    {
+      "id": "15",
+      "path": "node_modules/rock_grey/encode.js"
+    },
+    {
+      "id": "16",
+      "path": "encoder.js"
+    },
+    {
+      "id": "17",
+      "path": "node_modules/ιіІӏΙ11ı/index.js"
+    },
+    {
+      "id": "18",
+      "path": "node_modules/rock_grey/index.js"
+    },
+    {
+      "id": "19",
+      "path": "node_modules/friends/index.js"
+    },
+    {
+      "id": "20",
+      "path": "node_modules/ı1lιi1ӏΙ/index.js"
+    },
+    {
+      "id": "21",
+      "path": "node_modules/ıIӏІIiıı/index.js"
+    },
+    {
+      "id": "22",
+      "path": "read-core.js"
+    },
+    {
+      "id": "23",
+      "path": "read-format.js"
+    },
+    {
+      "id": "24",
+      "path": "read-token.js"
+    },
+    {
+      "id": "25",
+      "path": "node_modules/_getNodeRef/index.js"
+    },
+    {
+      "id": "26",
+      "path": "node_modules/100%/index.js"
+    },
+    {
+      "id": "27",
+      "path": "node_modules/_getNodeRef/write-type.js"
+    },
+    {
+      "id": "28",
+      "path": "node_modules/gash/index.js"
+    },
+    {
+      "id": "29",
+      "path": "node_modules/buffer/index.js"
+    },
+    {
+      "id": "30",
+      "path": "node_modules/base64-js/index.js"
+    },
+    {
+      "id": "31",
+      "path": "node_modules/event-lite/index.js"
+    },
+    {
+      "id": "32",
+      "path": "node_modules/loadTextureImage/index.js"
+    },
+    {
+      "id": "33",
+      "path": "node_modules/iІIіІiil/index.js"
+    },
+    {
+      "id": "34",
+      "path": "node_modules/assface/index.js"
+    }
+  ]
+}

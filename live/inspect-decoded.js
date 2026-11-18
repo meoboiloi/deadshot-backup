@@ -1,0 +1,14 @@
+const fs = require('fs');
+const d = fs.readFileSync('C:/Users/Administrator/Downloads/deadshot/live/decoded.js');
+const c = fs.readFileSync('C:/Users/Administrator/Downloads/deadshot/live/captured.js', 'utf8');
+const s = d.toString('utf8');
+const idx = s.indexOf('var battle_royale_enabled');
+console.log('len', d.length, 'battle idx', idx, 'captured len', c.length);
+console.log('decoded head', JSON.stringify(s.slice(0, 120)));
+console.log('at idx-200..idx+120', JSON.stringify(s.slice(Math.max(0, idx - 200), idx + 120)));
+console.log('cmp captured head with decoded@idx:', c.slice(0, 120) === s.slice(idx, idx + 120));
+let same = 0;
+while (same < Math.min(c.length, s.length - idx) && c[same] === s[idx + same]) same++;
+console.log('common prefix', same, 'of', c.length);
+console.log('tail 300', JSON.stringify(s.slice(-300)));
+console.log('at 657695', JSON.stringify(s.slice(657595, 657795)));

@@ -1,0 +1,14 @@
+[
+  {
+    "reason": "promiseRejection",
+    "desc": "Error: pkg-integrity\n    at kOVvqRC (eval at <anonymous> (https://deadshot.io/:1:1), <anonymous>:3:813001)",
+    "vars": [
+      {
+        "where": "kOVvqRC/global",
+        "name": "origin",
+        "len": 19,
+        "value": "https://deadshot.io"
+      }
+    ]
+  }
+]

@@ -1,0 +1,844 @@
+[
+  {
+    "api": "Function",
+    "args": {
+      "argc": 2,
+      "srcLen": 961169,
+      "srcHead": "var wvIEvB,RW3nTYi,Ly8xBp5,MBtp4x,Xp3glO,dzvy1g5,QoFOWp6,yBqEh3s,BbAoFu;const li",
+      "params": [
+        "YIPbqrW"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at cap (<anonymous>:32:162)\n    at Object.apply (<anonymous>:38:25)\n    at https://deadshot.io/:107:11"
+  },
+  {
+    "api": "TextDecoder.decode",
+    "args": {
+      "bytes": 108472,
+      "label": "utf-8"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at TextDecoder.decode (<anonymous>:72:146)\n    at sjHcJKb (eval at apply (:38:48), <anonymous>:3:231427)\n    at HiR_NR (eval at apply (:38:48), <anonymous>:3:16411)\n    at LGllmv (eval at apply (:38:48), <anonymous>:3:16480)\n    at eval (eval at apply (:38:48), <anonymous>:3:899102)"
+  },
+  {
+    "api": "Function",
+    "args": {
+      "argc": 5,
+      "srcLen": 2529,
+      "srcHead": "var K = new Uint32Array( [ 0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25",
+      "params": [
+        "bytes",
+        "DataView",
+        "Uint8Array",
+        "Uint32Array"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at cap (<anonymous>:32:162)\n    at Object.construct (<anonymous>:37:28)\n    at eval (eval at apply (:38:48), <anonymous>:3:919344)\n    at eval (eval at apply (:38:48), <anonymous>:3:961167)\n    at https://deadshot.io/:107:966522"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "https://matchmaking.deadshot.io/attest",
+      "opts": [
+        "cache"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at Object.F0sb8yJ (eval at apply (:38:48), <anonymous>:3:917727)\n    at Object.do2QR5 (eval at apply (:38:48), <anonymous>:3:792185)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "https://m21ee8rgiw6e/",
+      "opts": [
+        "redirect",
+        "cache"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at Object.d_G96ga (eval at apply (:38:48), <anonymous>:3:918602)\n    at Object.TdV4Ux (eval at apply (:38:48), <anonymous>:3:786552)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "https://t1i0k9kriy39/",
+      "opts": [
+        "redirect",
+        "cache"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at Object.d_G96ga (eval at apply (:38:48), <anonymous>:3:918602)\n    at Object.TdV4Ux (eval at apply (:38:48), <anonymous>:3:786552)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "https://m25d7ue8i4xg/",
+      "opts": [
+        "redirect",
+        "cache"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at Object.d_G96ga (eval at apply (:38:48), <anonymous>:3:918602)\n    at Object.TdV4Ux (eval at apply (:38:48), <anonymous>:3:786552)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "final.pkg?dr0t1GFI8r1793127903816"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at Object.cSyH9h (eval at apply (:38:48), <anonymous>:3:958217)\n    at sN7pjI (eval at apply (:38:48), <anonymous>:3:262651)"
+  },
+  {
+    "api": "subtle.importKey",
+    "args": {
+      "fmt": "raw",
+      "data": {
+        "byteLength": 32,
+        "type": "Uint8Array"
+      },
+      "alg": {
+        "name": "AES-GCM"
+      },
+      "extractable": false,
+      "usages": [
+        "decrypt"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> [as importKey] (<anonymous>:13:87)\n    at k96QiE (eval at apply (:38:48), <anonymous>:3:894726)\n    at Object.IYHUP3g (eval at apply (:38:48), <anonymous>:3:911365)\n    at pV4CCHP (eval at apply (:38:48), <anonymous>:3:814514)\n    at OQL4HS (eval at apply (:38:48), <anonymous>:3:911465)"
+  },
+  {
+    "api": "subtle.importKey",
+    "args": {
+      "fmt": "raw",
+      "data": {
+        "byteLength": 32,
+        "type": "Uint8Array"
+      },
+      "alg": {
+        "name": "Ed25519"
+      },
+      "extractable": false,
+      "usages": [
+        "verify"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> [as importKey] (<anonymous>:13:87)\n    at k96QiE (eval at apply (:38:48), <anonymous>:3:894726)\n    at Object.K4SDpwQ (eval at apply (:38:48), <anonymous>:3:930125)\n    at yKYAGoM (eval at apply (:38:48), <anonymous>:3:769301)\n    at HyOo8p (eval at apply (:38:48), <anonymous>:3:930299)"
+  },
+  {
+    "api": "subtle.decrypt",
+    "args": {
+      "alg": {
+        "name": "AES-GCM",
+        "iv": {
+          "0": 42,
+          "1": 244,
+          "2": 191,
+          "3": 42,
+          "4": 114,
+          "5": 54,
+          "6": 251,
+          "7": 170,
+          "8": 151,
+          "9": 205,
+          "10": 237,
+          "11": 179
+        },
+        "tagLength": 128
+      },
+      "key": {
+        "keys": []
+      },
+      "data": {
+        "byteLength": 1733401,
+        "type": "Uint8Array"
+      }
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> [as decrypt] (<anonymous>:13:87)\n    at zPvNiF (eval at apply (:38:48), <anonymous>:3:895045)\n    at Object.ysjtbF (eval at apply (:38:48), <anonymous>:3:911438)\n    at pV4CCHP (eval at apply (:38:48), <anonymous>:3:814785)"
+  },
+  {
+    "api": "subtle.verify",
+    "args": {
+      "alg": {
+        "name": "Ed25519"
+      },
+      "sig": {
+        "keys": []
+      },
+      "data": {
+        "byteLength": 64,
+        "type": "Uint8Array"
+      },
+      "key": {
+        "byteLength": 1733413,
+        "type": "Uint8Array"
+      }
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> [as verify] (<anonymous>:13:87)\n    at V5s3Lt (eval at apply (:38:48), <anonymous>:3:895125)\n    at Object.Dq19uY (eval at apply (:38:48), <anonymous>:3:930198)\n    at yKYAGoM (eval at apply (:38:48), <anonymous>:3:769567)"
+  },
+  {
+    "api": "DecompressionStream",
+    "args": {
+      "format": "gzip"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at new window.DecompressionStream (<anonymous>:64:119)\n    at s3n4Ws (eval at apply (:38:48), <anonymous>:3:819342)\n    at WG7IAQs (eval at apply (:38:48), <anonymous>:3:910451)\n    at Object.pKQX6G (eval at apply (:38:48), <anonymous>:3:912143)\n    at kOVvqRC (eval at apply (:38:48), <anonymous>:3:812110)"
+  },
+  {
+    "api": "TextDecoder.decode",
+    "args": {
+      "bytes": 5539470,
+      "label": "utf-8"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at TextDecoder.decode (<anonymous>:72:146)\n    at fQ_WXq (eval at apply (:38:48), <anonymous>:3:818640)\n    at KlSFGW (eval at apply (:38:48), <anonymous>:3:910658)\n    at Object.FMqing (eval at apply (:38:48), <anonymous>:3:912506)\n    at kOVvqRC (eval at apply (:38:48), <anonymous>:3:813677)"
+  },
+  {
+    "api": "xhr.open",
+    "args": {
+      "method": "POST",
+      "url": "/cdn-cgi/rum?"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> [as open] (<anonymous>:13:87)\n    at a (https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:754)\n    at vt (https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:27637)\n    at pt (https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:28364)"
+  },
+  {
+    "api": "xhr.send",
+    "args": {
+      "body": {
+        "string": "{\"startTime\":1795024344116,\"pageloadId\":\"433f374a-0ec2-45d7-",
+        "length": 827
+      }
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> [as send] (<anonymous>:13:87)\n    at a (https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:828)\n    at vt (https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:27637)\n    at pt (https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092:1:28364)"
+  },
+  {
+    "api": "Function",
+    "args": {
+      "argc": 45,
+      "srcLen": 5280862,
+      "srcHead": "var battle_royale_enabled=(!1);var e0f=o;(function(a,b){var e0e=o,c=a();for(;!![",
+      "params": [
+        "$vK8I8bp1N9C8vxtcioV4bQsqmcR7snNNz7",
+        "$iOClVW_kbRvorPSNvHplfrSb7n7S",
+        "$Gr71EwwlIIaGjAcHdEJf3vTGS3cIodII7uXouEERih4S",
+        "Object",
+        "DataView",
+        "requestAnimationFrame"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at cap (<anonymous>:32:162)\n    at Object.construct (<anonymous>:37:28)\n    at E3uxI4 (eval at apply (:38:48), <anonymous>:3:804282)\n    at Object._dh_Jg7 (eval at apply (:38:48), <anonymous>:3:917159)\n    at eval (eval at apply (:38:48), <anonymous>:3:803980)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/matrix.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/dryfire.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/famas.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/scar2.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/reload.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/spray-can.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/mag-out.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/mag-seat.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/mag-heavy.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/bolt-pull.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/bolt-release.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/mag-heavy.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/foley/handling.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/heavy sniper.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/scoped-ar2.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/shotgun.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/pistol.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/lmg.wav"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/slide3.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/hit.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/hitmark.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/hitmark.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/good_headshot.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/flesh.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/flesh.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/hitmark.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step0.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step0.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step1.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step1.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step2.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step2.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step3.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step3.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/concrete0.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/concrete1.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/concrete2.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/concrete0.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/step0.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/scope.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/scope.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/hoverover.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/hoverout.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/click.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/kill.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/killfull.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/death.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "audio/confirm.mp3"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dy0 (eval at construct (:37:51), <anonymous>:443:40)\n    at dy4 (eval at construct (:37:51), <anonymous>:445:455)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/noiserepeatable.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/sniperscopemobile.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/sniperscope.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/blurredsniperscopemobile.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/newhole.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/rock.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/blood.png"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/watersmoke.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/wine.png"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/noise.jpg"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/displacement.png"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/mygrass.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/light.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/light.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/vector/vectorcomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "character/female.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/ar2/arcomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "character/rookie.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/awp/newawpcomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "character/tuxedo.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/shotgun/shotguncomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/dmr/dmrcomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/pistol/pistolcomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/lmg/lmgcomp.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "character/lady.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "character/shotgunplayer.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/vector/vectorcompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/ar2/arcompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/awp/newawpcompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/shotgun/shotguncompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/dmr/dmrcompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/pistol/pistolcompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "weapons/lmg/lmgcompsmall.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at dym (eval at construct (:37:51), <anonymous>:1032:1921)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/envmap.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/skybox.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/mountains.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "textures/sand.webp"
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at d8M (eval at construct (:37:51), <anonymous>:1013:26)\n    at d8P (eval at construct (:37:51), <anonymous>:1007:30)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "https://matchmaking.deadshot.io/admission",
+      "opts": [
+        "method",
+        "headers",
+        "body",
+        "credentials",
+        "cache"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at Object.dSafrpu (eval at apply (:38:48), <anonymous>:3:455031)\n    at UvODaj.wvIEvB.<computed> (eval at apply (:38:48), <anonymous>:3:679212)\n    at dur (eval at construct (:37:51), <anonymous>:1504:281)\n    at eval (eval at construct (:37:51), <anonymous>:1509:2056)"
+  },
+  {
+    "api": "fetch",
+    "args": {
+      "url": "https://hb.vntsm.com/v4/live/srv/g.txt",
+      "opts": [
+        "priority",
+        "cache"
+      ]
+    },
+    "stack": "    at stack (<anonymous>:7:39)\n    at obj.<computed> (<anonymous>:13:87)\n    at https://hb.vntsm.com/v4/live/vms/sites/deadshot.io/index.js:1:46906\n    at https://hb.vntsm.com/v4/live/vms/sites/deadshot.io/index.js:1:53973"
+  }
+]

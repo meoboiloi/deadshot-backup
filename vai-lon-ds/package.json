@@ -1,0 +1,128 @@
+{
+	"author": {
+		"email": "admin@ovfteam.com",
+		"name": "ovftank",
+		"url": "https://ovfteam.com"
+	},
+	"build": {
+		"appId": "com.ovfteam.vai-lon-ds",
+		"asar": true,
+		"buildVersion": "0.0.3.0",
+		"compression": "maximum",
+		"copyright": "Copyright (C) 2026 ovfteam. All rights reserved.",
+		"directories": {
+			"buildResources": "assets",
+			"output": "release"
+		},
+		"electronLanguages": [
+			"en-US"
+		],
+		"executableName": "DEADSHOT.IO",
+		"extraMetadata": {
+			"description": "Desktop client for DEADSHOT.IO.",
+			"homepage": "https://ovfteam.com",
+			"productName": "DEADSHOT.IO"
+		},
+		"files": [
+			"assets/**",
+			"main.js",
+			"package.json",
+			"!node_modules/electron/**"
+		],
+		"linux": {
+			"artifactName": "DEADSHOT.IO-${version}-${arch}.${ext}",
+			"category": "Game",
+			"executableName": "deadshot-io",
+			"icon": "assets/favicon.png",
+			"maintainer": "ovftank <admin@ovfteam.com>",
+			"target": [
+				{
+					"arch": [
+						"x64"
+					],
+					"target": "deb"
+				}
+			]
+		},
+		"mac": {
+			"artifactName": "DEADSHOT.IO-${version}-${arch}.${ext}",
+			"category": "public.app-category.games",
+			"icon": "assets/favicon.icns",
+			"identity": null,
+			"target": [
+				{
+					"arch": [
+						"x64",
+						"arm64"
+					],
+					"target": "dmg"
+				},
+				{
+					"arch": [
+						"x64",
+						"arm64"
+					],
+					"target": "zip"
+				}
+			]
+		},
+		"nsis": {
+			"allowToChangeInstallationDirectory": true,
+			"createDesktopShortcut": true,
+			"deleteAppDataOnUninstall": false,
+			"displayLanguageSelector": false,
+			"installerIcon": "assets/favicon.ico",
+			"installerLanguages": [
+				"en_US"
+			],
+			"oneClick": false,
+			"perMachine": false,
+			"shortcutName": "DEADSHOT.IO",
+			"uninstallDisplayName": "DEADSHOT.IO",
+			"uninstallerIcon": "assets/favicon.ico"
+		},
+		"productName": "DEADSHOT.IO",
+		"publish": [
+			{
+				"owner": "ovftank",
+				"provider": "github",
+				"releaseType": "release",
+				"repo": "vai-lon-ds"
+			}
+		],
+		"removePackageKeywords": true,
+		"removePackageScripts": true,
+		"win": {
+			"artifactName": "DEADSHOT.IO-Setup-${version}-${arch}.${ext}",
+			"icon": "assets/favicon.ico",
+			"target": [
+				{
+					"arch": [
+						"x64"
+					],
+					"target": "nsis"
+				}
+			]
+		}
+	},
+	"dependencies": {
+		"@ghostery/adblocker-electron": "2.18.1",
+		"cross-fetch": "4.1.0",
+		"electron-updater": "6.8.9"
+	},
+	"devDependencies": {
+		"electron": "43.0.0",
+		"electron-builder": "26.15.3"
+	},
+	"homepage": "https://ovfteam.com",
+	"main": "main.js",
+	"name": "vai-lon-ds",
+	"private": true,
+	"productName": "DEADSHOT.IO",
+	"scripts": {
+		"build": "electron-builder",
+		"start": "electron ."
+	},
+	"type": "module",
+	"version": "0.0.3"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "alg": "AES-GCM",
+    "usages": [
+      "decrypt"
+    ],
+    "hex": "8e1f7618de022e14be5ac75e4a880d9bcceef3ec45be2250e243b8344126b378"
+  },
+  {
+    "alg": "Ed25519",
+    "usages": [
+      "verify"
+    ],
+    "hex": "8809c0874c97402ccd667a85b7b644df8dce5514f15a02acfc8cfea438326f6c"
+  }
+]
